@@ -27,13 +27,13 @@ main>section{
     text-align: center;
 }
 .header h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 200;
     margin-bottom: 1rem;
     color: hsl(234, 12%, 34%);
 }
 .header h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
     color: hsl(234, 12%, 34%);
@@ -45,7 +45,7 @@ main>section{
 }
 .card{
     background: #fff;
-    box-shadow: .01rem .03rem .2rem .05rem #1e2e3d33;
+    box-shadow: .1rem .3rem 2rem .3rem #1e2e3d33;
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -88,9 +88,9 @@ main>section{
 
 .cards{
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
     grid-template-columns: repeat(1, 1fr);
-    margin-block: 5rem;
+    margin-block: 7rem;
     max-width: 95rem;
     place-items: center;
     margin-inline: auto;
